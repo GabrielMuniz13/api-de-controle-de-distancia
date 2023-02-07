@@ -28,7 +28,7 @@ app.get('/:cep', async (req, res) => {
 
     const resDados = {
       enderecoConsumidor: dadosCep,
-      autorizadas: [autorizadasOrdem[0], autorizadasOrdem[1], autorizadasOrdem[2]]
+      autorizadas: [autorizadasOrdem[0], autorizadasOrdem[1]]
     }
     res.send(resDados);
 
